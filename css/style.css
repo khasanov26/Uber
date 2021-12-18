@@ -1,0 +1,195 @@
+* {
+   font-family: 'Roboto', sans-serif;
+}
+header {
+   position: relative;
+}
+nav {
+   height: 50px;
+   background-color: #212121;
+   position: fixed;
+   width: 100%;
+}
+.menu {
+   display: flex;
+   justify-content: space-between;
+   padding: 13px 70px;
+   margin: 0;
+   list-style-type: none ;
+}
+.menu .menu_link {
+   color: #ffffff;
+   font-size: 15px;
+   font-weight: 300;
+   text-decoration: none;
+}
+.menu .menu_item {
+   border-right: 2px dotted black;
+   padding-right: 28px;
+}
+.subheader {
+   height: 84px;
+   background-color: rgba(0,0,0, .6);
+   position: absolute;
+   width: 100%;
+   top: 50px;
+}
+.subheader .subheader_logo {
+   display: block;
+   margin-top: 16px;
+   max-width: 100%;
+}
+.subheader .subheader_official {
+   margin-top: 6px;
+   opacity: 0.5;
+   color: #ffffff;
+   font-size: 13px;
+   font-weight: 400;
+}
+.subheader .subheader_call {
+   margin-top: 19px;
+   color: #ffffff;
+   font-size: 12px;
+   font-weight: 300;
+   text-align: right;
+}
+.subheader .subheader_phone {
+   display: block;
+   margin-top: 8px;
+   color: #ffffff;
+   font-style: 22px;
+   font-weight: 400;
+   text-transform: uppercase;
+   text-align: right;
+   line-height: 12px;
+}
+.subheader .subheader_btn {
+   margin-top: 19px;
+   width: 172px;
+   height: 46px;
+   background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+   border: none;
+   border-radius: 4px;
+   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+   text-shadow: 1px 1px 0 rgba(0,0,0, 0.21);
+   font-weight: 400;
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.promo {
+   min-height: 800px;
+   background:url('../img/bg/main-bg.jpeg') center center/cover no-repeat;
+   padding: 200px 0 135px 0;
+}
+.promo .promo_header {
+   color: #ffffff;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 24px;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 60px;
+   margin: 0;
+}
+.promo .promo_subheader {
+   color: #ffffff;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 24px;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 36px;
+   margin: 0;
+   margin-top: 22px;
+}
+.promo .promo_descr {
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: center;
+   margin-top: 23px;
+}
+.promo .promo_btn {
+   display: block;
+   margin: 118px auto 0 auto;
+   width: 259px;
+   height: 63px;
+   background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+   border: none;
+   border-radius: 4px;
+   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+   text-shadow: 1px 1px 0 rgba(0,0,0, 0.21);
+   font-weight: 400;
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+.col-md-6 {
+   padding: 0 0;
+}
+
+.benefits {
+   padding: 70px 0 30px 0;
+   min-height: 900px;
+}
+.benefits .benefits_btn {
+   display: block;
+   width: 113px;
+   height: 25px;
+   background-color: #000000;
+   font-weight: 200;
+   font-size: 11px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin: 0 auto;
+   padding: 0;
+   border: none;
+}
+.benefits .benefits_reason {
+   margin-top: 38px;
+   font-weight: 900;
+   font-size: 38px;
+   line-height: 48px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #222222;
+}
+.benefits_item {
+   margin-top: 40px;
+   margin-bottom: 35px;
+   display: flex;
+   padding: 0 66px 0 35px;
+   min-height: 150px;
+}
+
+.benefits_item .benefits_round {
+   display: flex; 
+   justify-content: center; 
+   align-items:center;
+   width: 114px;
+   height: 114px;
+   background: #B4E2FF;
+   border-radius: 100%;
+   margin-right: 26px;
+   margin-top: 9px;
+   /* margin-left: 35px; */
+}
+.benefits_item .benefits_text {
+   font-weight: 300;
+   font-size: 17px;
+   line-height: 21px;
+   color: #202020;
+   width: 392px;
+}
+.benefits_text .benefits_head {
+   font-size: 17px;
+   line-height: 21px;
+   color: #1EACC7;
+}
+.benefits_list {
+   padding: 0 35px 0 35px;
+}
